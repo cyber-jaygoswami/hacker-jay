@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    background-color: #F7F1E8;
+    color: #111111;
+  }
+
+  body {
+    background-color: #F7F1E8;
+    color: #111111;
+    overflow-x: hidden;
+  }
+
+  /* Refined warm editorial scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #F7F1E8;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #D8D0C6;
+    border-radius: 2px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #111111;
+  }
+}
+
+/* Editorial subtle horizontal hairline rules */
+.editorial-rule {
+  height: 1px;
+  background-color: #D8D0C6;
+  width: 100%;
+}
+
+/* Subtle editorial paper tone transitions */
+.bg-cream-primary {
+  background-color: #F7F1E8;
+}
+
+.bg-cream-alt {
+  background-color: #EFE7DC;
+}
+
+.bg-cream-surface {
+  background-color: #FAF7F1;
+}
+
+.bg-cream-blush {
+  background-color: #F6E8E5;
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
