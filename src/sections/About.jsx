@@ -12,7 +12,7 @@ export default function About() {
         {/* Section Header */}
         <div className="pb-12 mb-16 border-b border-[#D8D0C6]">
           <span className="font-mono text-xs text-[#8A847C] uppercase tracking-widest block mb-2">
-            SECTION 10 / PROFILE
+            SECTION 7 / PROFILE
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#111111] tracking-tight">
             About Jay Goswami

@@ -52,7 +52,7 @@ export default function Contact() {
         {/* Large Dramatic Headline */}
         <div className="pb-16 mb-16 border-b border-[#D8D0C6]">
           <span className="font-mono text-xs text-[#8A847C] uppercase tracking-widest block mb-4">
-            SECTION 11 / INQUIRIES &amp; COLLABORATION
+            SECTION 8 / INQUIRIES &amp; COLLABORATION
           </span>
           <h2 className="font-serif text-4xl sm:text-6xl lg:text-7xl font-bold text-[#111111] tracking-tight leading-[0.98]">
             Let's talk<br />

@@ -20,7 +20,7 @@ export default function Research() {
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 pb-12 mb-16 border-b border-[#D8D0C6]">
           <div className="space-y-2 max-w-2xl">
             <span className="font-mono text-xs text-[#8A847C] uppercase tracking-widest block">
-              SECTION 07 / INVESTIGATION
+              SECTION 05 / INVESTIGATION
             </span>
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-[#111111] tracking-tight">
               Selected Research

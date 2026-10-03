@@ -35,16 +35,13 @@ export default function App() {
         {/* 4. What certifications does he have? */}
         <Certifications />
 
-        {/* 5. What is he currently learning? Cloud Architecture & Roadmap */}
-        <CloudSecurity />
-        <LearningRoadmap />
+       
 
-        {/* 6. What security research does he do? */}
+        {/* 5. What security research does he do? */}
         <Research />
-        <AttackSurfaceLab />
         <Skills />
 
-        {/* 7. Who is he & How do I contact him? */}
+        {/* 6. Who is he & How do I contact him? */}
         <About />
         <Contact />
       </main>
